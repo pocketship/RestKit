@@ -49,11 +49,25 @@
 // RestKit Logging Components
 //
 
-_lcl_component(RestKit,                     "restkit",                      "RestKit")
-_lcl_component(RestKitNetwork,              "restkit.network",              "RestKit/Network")
-_lcl_component(RestKitNetworkCache,         "restkit.network.cache",        "RestKit/Network/Cache")
-_lcl_component(RestKitNetworkQueue,         "restkit.network.queue",        "RestKit/Network/Queue")
-_lcl_component(RestKitNetworkReachability,  "restkit.network.reachability", "RestKit/Network/Reachability")
-_lcl_component(RestKitObjectMapping,        "restkit.object_mapping",       "RestKit/ObjectMapping")
-_lcl_component(RestKitCoreData,             "restkit.core_data",            "RestKit/CoreData")
-_lcl_component(App,                         "app",                          "App")
+_lcl_component(RestKit,                                     "restkit",                                              "RestKit")
+_lcl_component(RestKitNetwork,                              "restkit.network",                                      "RestKit/Network")
+_lcl_component(RestKitNetworkCache,                         "restkit.network.cache",                                "RestKit/Network/Cache")
+_lcl_component(RestKitNetworkQueue,                         "restkit.network.queue",                                "RestKit/Network/Queue")
+_lcl_component(RestKitNetworkReachability,                  "restkit.network.reachability",                         "RestKit/Network/Reachability")
+_lcl_component(RestKitObjectMapping,                        "restkit.object_mapping",                               "RestKit/ObjectMapping")
+_lcl_component(RestKitCoreData,                             "restkit.core_data",                                    "RestKit/CoreData")
+_lcl_component(App,                                         "app",                                                  "App")
+
+
+_lcl_component(PocketShip,                                  "pocketship",                                           "PocketShip")
+_lcl_component(PocketShipLibrary,                           "pocketship.library",                                   "PocketShip/Library")
+_lcl_component(PocketShipMemory,                            "pocketship.memory",                                    "PocketShip/Memory")
+_lcl_component(PocketShipNavigation,                        "pocketship.navigation",                                "PocketShip/Navigation")
+_lcl_component(PocketShipNetworking,                        "pocketship.networking",                                "PocketShip/Networking")
+_lcl_component(PocketShipUI,                                "pocketship.ui",                                        "PocketShip/UI")
+
+_lcl_component(PocketShipBirthdaygram,                      "pocketship.birthdaygram",                              "PocketShip/Birthdaygram")
+_lcl_component(PocketShipBirthdaygramNetwork,               "pocketship.birthdaygram.network",                      "PocketShip/Birthdaygram/Network")
+_lcl_component(PocketShipBirthdaygramNetworkAPI,            "pocketship.birthdaygram.network.api",                  "PocketShip/Birthdaygram/Network/API")
+_lcl_component(PocketShipBirthdaygramNetworkFacebook,       "pocketship.birthdaygram.network.facebook",             "PocketShip/Birthdaygram/Network/Facebook")
+_lcl_component(PocketShipBirthdaygramNetworkUrbanAirship,   "pocketship.birthdaygram.network.urbanairship",         "PocketShip/Birthdaygram/Network/UrbanAirship")
